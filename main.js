@@ -30,6 +30,9 @@ $(document).ready(() => {
 
         let newColor = color += 1 
         finalColor = '#' + newColor
+
+        Number(hr).toString(16)+Number(min).toString(16)+Number(sec).toString(16)
+
         $("#hex").html(finalColor)
 
         document.body.style.backgroundColor = finalColor; 
